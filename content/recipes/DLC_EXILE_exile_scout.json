@@ -1,0 +1,397 @@
+{
+"recipes": [
+{id:"scout.aachen",
+actionId:"scout",
+label:"Reconnoitre Aachen",
+startdescription:"Walk the city, seeking opportunities. ",
+warmup:30,
+
+craftable:true,
+requirements:{domicile.aachen:1},
+	internaldeck: {spec: [op.connection.official,op.connection.underworld,op.licence.medical,op.office,op.warehouse,loc.shrine.colonel.aachen,op.connection.radicals,op.weapon.b,op.night,op.dawn], draws: 1, resetonexhaustion: true},
+},
+
+{id:"scout.alexandria",
+startdescription:"Walk the city, seeking opportunities. ",
+warmup:30,
+
+craftable:true,
+actionId:"scout",
+label:"Reconnoitre Alexandria",
+requirements:{domicile.alexandria:1},
+	internaldeck: {spec: [op.curio.lantern1,op.connection.official,op.connection.underworld,op.licence.import,op.office,op.warehouse,op.townhouse,op.villa,loc.shrine.lionsmith.alexandria,op.heat,op.faith,op.connection.holy,op.cats,op.sea,op.night,op.dawn], draws: 1, resetonexhaustion: true},
+},
+
+
+{id:"scout.algiers",
+actionId:"scout",
+label:"Reconnoitre Algiers",
+startdescription:"Walk the city, seeking opportunities. ",
+warmup:30,
+
+craftable:true,
+requirements:{domicile.algiers:1},
+	internaldeck: {spec: [op.curio.forge,op.connection.official,op.connection.underworld,op.licence.import,op.office,op.warehouse,op.townhouse,op.villa,loc.shrine.lionsmith.algiers,op.heat,op.heights,op.cats,op.sea,op.connection.radicals,op.dawn], draws: 1, resetonexhaustion: true},
+},
+
+{id:"scout.amsterdam",
+actionId:"scout",
+label:"Reconnoitre Amsterdam",
+startdescription:"Walk the city, seeking opportunities. ",
+warmup:30,
+
+craftable:true,
+requirements:{domicile.amsterdam:1},
+	internaldeck: {spec: [op.connection.official,op.connection.underworld,op.licence.import,op.office,op.warehouse,op.townhouse,op.villa,op.morgen,op.sea,op.weapon.b,op.sunset,op.dawn,op.weapon.a], draws: 1, resetonexhaustion: true},
+},
+
+{id:"scout.avignon",
+actionId:"scout",
+label:"Reconnoitre Avignon",
+startdescription:"Walk the city, seeking opportunities. ",
+warmup:30,
+
+craftable:true,
+craftable:true,
+requirements:{domicile.avignon:1},
+	internaldeck: {spec: [op.curio.grail,op.rarity.heart,op.connection.official,op.connection.underworld,op.licence.medical,op.office,op.warehouse,op.townhouse,op.villa,op.sunset,op.dawn,op.weapon.a], draws: 1, resetonexhaustion: true},
+},
+
+{id:"scout.baghdad",
+actionId:"scout",
+label:"Reconnoitre Baghdad",
+requirements:{domicile.baghdad:1},
+startdescription:"Walk the city, seeking opportunities. ",
+warmup:30,
+
+craftable:true,
+	internaldeck: {spec: [op.curio.forge,op.connection.official,op.connection.underworld,op.licence.medical,op.office,op.warehouse,op.heat,op.faith,op.connection.holy,op.connection.ruler,op.connection.radicals,op.dawn,op.weapon.a], draws: 1, resetonexhaustion: true},
+},
+
+
+{id:"scout.budapest",
+actionId:"scout",
+label:"Reconnoitre Budapest",
+startdescription:"Walk the city, seeking opportunities. ",
+warmup:30,
+
+craftable:true,
+requirements:{domicile.budapest:1},
+	internaldeck: {spec: [op.curio.grail,op.connection.official,op.connection.underworld,op.licence.medical,op.office,op.warehouse,op.townhouse,op.villa,op.medusa,op.connection.underworld,op.night,op.dawn,op.weapon.a], draws: 1, resetonexhaustion: true},
+},
+
+
+
+{id:"scout.candia",
+actionId:"scout",
+label:"Reconnoitre Candia-Heraklion",
+startdescription:"Walk the city, seeking opportunities. ",
+warmup:30,
+
+craftable:true,
+requirements:{domicile.candia:1},
+	internaldeck: {spec: [op.curio.heart,op.connection.official,op.connection.underworld,op.licence.import,op.office,op.warehouse,op.townhouse,op.villa,loc.shrine.colonel.candia,op.heat,op.heights,op.horned,op.sea,op.dawn,op.weapon.a], draws: 1, resetonexhaustion: true},
+},
+
+
+
+{id:"scout.cluj",
+actionId:"scout",
+label:"Reconnoitre Cluj-Napoca",
+startdescription:"Walk the city, seeking opportunities. ",
+warmup:30,
+
+craftable:true,
+requirements:{domicile.cluj:1},
+	internaldeck: {spec: [op.weapon.b,op.rarity.winter,op.connection.official,op.connection.underworld,op.licence.medical,op.office,op.warehouse,op.townhouse,op.villa,op.heights,op.connection.ruler,op.sunset,op.dawn,op.weapon.a], draws: 1, resetonexhaustion: true},
+},
+
+
+{id:"scout.granada",
+actionId:"scout",
+label:"Reconnoitre Granada",
+startdescription:"Walk the city, seeking opportunities. ",
+warmup:30,
+
+craftable:true,
+requirements:{domicile.granada:1},
+	internaldeck: {spec: [op.curio.heart,op.connection.official,op.connection.underworld,op.licence.medical,op.office,op.warehouse,op.townhouse,op.villa,op.heat,op.heights,op.cats,op.flowermaker,op.night,op.dawn,op.weapon.a], draws: 1, resetonexhaustion: true},
+},
+
+
+{id:"scout.istanbul",
+actionId:"scout",
+label:"Reconnoitre Istanbul",
+startdescription:"Walk the city, seeking opportunities. ",
+warmup:30,
+
+craftable:true,
+requirements:{domicile.istanbul:1},
+	internaldeck: {spec: [op.curio.lantern1,op.connection.official,op.connection.underworld,op.licence.import,op.office,op.warehouse,op.heat,op.heights,op.faith,op.connection.holy,op.cats,op.sea,op.connection.radicals,op.sunset,op.dawn,op.weapon.a], draws: 1, resetonexhaustion: true},
+},
+
+
+{id:"scout.kaunas",
+actionId:"scout",
+label:"Reconnoitre Kaunas",
+startdescription:"Walk the city, seeking opportunities. ",
+warmup:30,
+
+craftable:true,
+requirements:{domicile.kaunas:1},
+	internaldeck: {spec: [op.curio.forge,op.connection.official,op.connection.underworld,op.licence.medical,op.office,op.warehouse,op.townhouse,op.villa,op.cold,op.faith,op.connection.holy,op.wolf,op.connection.ruler,op.night,op.dawn,op.weapon.a], draws: 1, resetonexhaustion: true},
+},
+
+
+{id:"scout.kiev",
+actionId:"scout",
+label:"Reconnoitre Kiev",
+startdescription:"Walk the city, seeking opportunities. ",
+warmup:30,
+
+craftable:true,
+requirements:{domicile.kiev:1},
+	internaldeck: {spec: [op.curio.knock,op.connection.official,op.connection.underworld,op.connection.radicals,op.licence.medical,op.office,op.warehouse,op.marinette,op.heights,op.faith,op.connection.holy,op.sunset,op.dawn,op.weapon.a], draws: 1, resetonexhaustion: true},
+},
+
+
+{id:"scout.krakow",
+actionId:"scout",
+label:"Reconnoitre Kraków",
+startdescription:"Walk the city, seeking opportunities. ",
+warmup:30,
+
+craftable:true,
+requirements:{domicile.krakow:1},
+	internaldeck: {spec: [op.curio.lantern2,op.connection.official,op.connection.underworld,op.licence.medical,op.office,op.warehouse,op.townhouse,op.villa,op.heights,op.faith,op.connection.holy,op.dawn,op.weapon.a], draws: 1, resetonexhaustion: true},
+},
+
+{id:"scout.leningrad",
+actionId:"scout",
+label:"Reconnoitre Leningrad",
+startdescription:"Walk the city, seeking opportunities. ",
+warmup:30,
+
+craftable:true,
+requirements:{domicile.leningrad:1},
+	internaldeck: {spec: [op.connection.official,op.connection.underworld,op.weapon.b,op.licence.medical,op.office,op.warehouse,op.cold,loc.shrine.colonel.leningrad,op.connection.radicals,op.sunset,op.dawn,op.weapon.a], draws: 1, resetonexhaustion: true},
+},
+
+
+{id:"scout.london",
+actionId:"scout",
+label:"Reconnoitre London",
+startdescription:"Walk the city, seeking opportunities. ",
+warmup:30,
+
+craftable:true,
+requirements:{domicile.london:1},
+	internaldeck: {spec: [op.curio.lantern2,op.connection.official,op.connection.underworld,op.licence.import,op.office,op.warehouse,op.sulochana,op.sea,op.connection.radicals,op.dawn,op.weapon.a], draws: 1, resetonexhaustion: true},
+},
+
+{id:"scout.marrakech",
+actionId:"scout",
+label:"Reconnoitre Marrakech",
+startdescription:"Walk the city, seeking opportunities. ",
+warmup:30,
+
+craftable:true,
+requirements:{domicile.marrakech:1},
+	internaldeck: {spec: [op.curio.lantern3,op.connection.official,op.connection.underworld,op.licence.medical,op.office,op.warehouse,op.townhouse,op.villa,op.echidna,op.heat,op.faith,op.connection.holy,op.cats,loc.shrine.lionsmith.marrakech,op.sunset,op.dawn,op.weapon.a], draws: 1, resetonexhaustion: true},
+},
+
+
+
+{id:"scout.meshad",
+actionId:"scout",
+label:"Reconnoitre Meshad",
+startdescription:"Walk the city, seeking opportunities. ",
+warmup:30,
+
+craftable:true,
+requirements:{domicile.meshad:1},
+	internaldeck: {spec: [op.curio.forge,op.connection.official,op.connection.underworld,op.licence.medical,op.office,op.warehouse,op.townhouse,op.villa,loc.shrine.lionsmith.meshad,op.heat,op.faith,op.connection.holy,op.cats,op.sunset,op.dawn,op.weapon.a], draws: 1, resetonexhaustion: true},
+},
+
+
+{id:"scout.munich",
+actionId:"scout",
+label:"Reconnoitre Munich",
+startdescription:"Walk the city, seeking opportunities. ",
+warmup:30,
+
+craftable:true,
+requirements:{domicile.munich:1},
+	internaldeck: {spec: [op.connection.official,op.connection.underworld,op.connection.radicals,op.licence.medical,op.office,op.warehouse,loc.shrine.colonel.munich,op.horned,op.weapon.b,op.night,op.dawn,op.weapon.a], draws: 1, resetonexhaustion: true},
+},
+
+
+
+{id:"scout.nizhny",
+actionId:"scout",
+label:"Reconnoitre Nizhny",
+startdescription:"Walk the city, seeking opportunities. ",
+warmup:30,
+
+craftable:true,
+requirements:{domicile.nizhny:1},
+	internaldeck: {spec: [op.curio.forge,op.connection.official,op.connection.underworld,op.connection.radicals,op.licence.medical,op.office,op.warehouse,op.cold,loc.shrine.colonel.nizhny,op.sunset,op.dawn,op.weapon.a], draws: 1, resetonexhaustion: true},
+},
+
+
+
+{id:"scout.paris",
+actionId:"scout",
+label:"Reconnoitre Paris",
+startdescription:"Walk the city, seeking opportunities. ",
+warmup:30,
+
+craftable:true,
+requirements:{domicile.paris:1},
+	internaldeck: {spec: [op.connection.official,op.connection.underworld,op.weapon.b,op.rarity.grail,op.licence.medical,op.office,op.warehouse,op.townhouse,op.villa,op.heights,op.flowermaker,op.night,op.dawn,op.weapon.a], draws: 1, resetonexhaustion: true},
+},
+
+
+{id:"scout.prague",
+actionId:"scout",
+label:"Reconnoitre Prague",
+startdescription:"Walk the city, seeking opportunities. ",
+warmup:30,
+
+craftable:true,
+requirements:{domicile.prague:1},
+	internaldeck: {spec: [op.curio.knock,op.connection.official,op.connection.underworld,op.licence.medical,op.office,op.warehouse,op.townhouse,op.villa,op.cold,op.connection.ruler,op.night,op.dawn,op.weapon.a], draws: 1, resetonexhaustion: true},
+},
+
+
+
+{id:"scout.rostock",
+actionId:"scout",
+label:"Reconnoitre Rostock",
+startdescription:"Walk the city, seeking opportunities. ",
+warmup:30,
+
+craftable:true,
+requirements:{domicile.rostock:1},
+	internaldeck: {spec: [op.connection.official,op.connection.underworld,op.weapon.b,op.rarity.moth,op.licence.import,op.office,op.warehouse,op.townhouse,op.villa,op.cold,op.sea,op.night,op.dawn,op.weapon.a], draws: 1, resetonexhaustion: true},
+},
+
+
+{id:"scout.samarkand",
+actionId:"scout",
+label:"Reconnoitre Samarkand",
+startdescription:"Walk the city, seeking opportunities. ",
+warmup:30,
+
+craftable:true,
+requirements:{domicile.samarkand:1},
+	internaldeck: {spec: [op.curio.lantern1,op.connection.official,op.connection.underworld,op.connection.radicals,op.licence.medical,op.office,op.warehouse,loc.shrine.lionsmith.samarkand,op.faith,op.connection.holy,op.cats,op.dawn,op.weapon.a], draws: 1, resetonexhaustion: true},
+},
+
+
+{id:"scout.stalingrad",
+actionId:"scout",
+label:"Reconnoitre Stalingrad",
+startdescription:"Walk the city, seeking opportunities. ",
+warmup:30,
+
+craftable:true,
+requirements:{domicile.stalingrad:1},
+	internaldeck: {spec: [op.curio.moth,op.connection.official,op.connection.underworld,op.licence.medical,op.office,op.warehouse,loc.shrine.colonel.stalingrad,op.cold,op.wolf,op.connection.radicals,op.night,op.dawn,op.weapon.a], draws: 1, resetonexhaustion: true},
+},
+
+
+{id:"scout.strasbourg",
+actionId:"scout",
+label:"Reconnoitre Strasbourg",
+startdescription:"Walk the city, seeking opportunities. ",
+warmup:30,
+
+craftable:true,
+requirements:{domicile.strasbourg:1},
+	internaldeck: {spec: [op.connection.official,op.connection.underworld,op.weapon.b,op.rarity.knock,op.licence.medical,op.office,op.warehouse,op.townhouse,op.villa,op.horned,op.dawn,op.weapon.a], draws: 1, resetonexhaustion: true},
+},
+
+{id:"scout.sverdlovsk",
+actionId:"scout",
+label:"Reconnoitre Sverdlovsk",
+startdescription:"Walk the city, seeking opportunities. ",
+warmup:30,
+
+craftable:true,
+requirements:{domicile.sverdlovsk:1},
+	internaldeck: {spec: [op.curio.heart,op.connection.official,op.connection.underworld,op.licence.medical,op.office,op.warehouse,op.cold,op.connection.radicals,op.night,op.dawn,op.weapon.a], draws: 1, resetonexhaustion: true},
+},
+
+{id:"scout.tiflis",
+actionId:"scout",
+label:"Reconnoitre Tiflis",
+startdescription:"Walk the city, seeking opportunities. ",
+warmup:30,
+
+craftable:true,
+requirements:{domicile.tiflis:1},
+	internaldeck: {spec: [op.curio.lantern2,op.connection.official,op.connection.underworld,op.connection.radicals,op.licence.medical,op.office,op.warehouse,op.heights,op.wolf,op.weapon.b,op.dawn,op.weapon.a], draws: 1, resetonexhaustion: true},
+},
+
+
+{id:"scout.tirana",
+actionId:"scout",
+label:"Reconnoitre Tirana",
+startdescription:"Walk the city, seeking opportunities. ",
+warmup:30,
+
+craftable:true,
+requirements:{domicile.tirana:1},
+	internaldeck: {spec: [op.connection.official,op.connection.underworld,op.licence.medical,op.office,op.warehouse,op.townhouse,op.villa,op.flowermaker,op.connection.ruler,op.sunset,op.dawn,op.weapon.a], draws: 1, resetonexhaustion: true},
+},
+
+
+{id:"scout.tripoli",
+actionId:"scout",
+label:"Reconnoitre Tripoli dell'ovest",
+startdescription:"Walk the city, seeking opportunities. ",
+warmup:30,
+
+craftable:true,
+requirements:{domicile.tripoli:1},
+	internaldeck: {spec: [op.curio.lantern3,op.connection.official,op.connection.underworld,op.licence.import,op.office,op.warehouse,op.townhouse,op.villa,op.heat,op.cats,op.sea,op.sunset,op.dawn,op.weapon.a], draws: 1, resetonexhaustion: true},
+},
+
+
+
+{id:"scout.valletta",
+actionId:"scout",
+label:"Reconnoitre Valletta",
+startdescription:"Walk the city, seeking opportunities. ",
+warmup:30,
+
+craftable:true,
+requirements:{domicile.valletta:1},
+	internaldeck: {spec: [op.curio.forge,op.connection.official,op.connection.underworld,op.licence.import,op.office,op.warehouse,op.townhouse,op.villa,loc.shrine.colonel.valletta,op.sea,op.dawn,op.weapon.a], draws: 1, resetonexhaustion: true},
+},
+
+
+{id:"scout.venice",
+actionId:"scout",
+label:"Reconnoitre Venice",
+startdescription:"Walk the city, seeking opportunities. ",
+warmup:30,
+
+craftable:true,
+requirements:{domicile.venice:1},
+	internaldeck: {spec: [op.curio.knock,op.connection.official,op.connection.underworld,op.licence.medical,op.office,op.warehouse,op.townhouse,op.villa,loc.shrine.lionsmith.venice,op.faith,op.connection.holy,op.cats,op.dawn,op.weapon.a], draws: 1, resetonexhaustion: true},
+},
+
+{id:"scout.vienna",
+actionId:"scout",
+label:"Reconnoitre Vienna",
+startdescription:"Walk the city, seeking opportunities. ",
+warmup:30,
+
+craftable:true,
+requirements:{domicile.vienna:1},
+	internaldeck: {spec: [op.connection.official,op.connection.underworld,op.weapon.b,op.rarity.forge,op.licence.medical,op.office,op.warehouse,op.townhouse,op.villa,op.kleidouchos,op.dawn,op.weapon.a], draws: 1, resetonexhaustion: true},
+}
+]
+}
